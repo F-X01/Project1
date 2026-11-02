@@ -44,6 +44,9 @@ a {
 
 
 header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #D7E2D2;
     padding: 25px 30px;
     margin-bottom: 40px;
@@ -51,7 +54,7 @@ header {
 
 header h2 {
     font-size: 24px;
-    margin-bottom: 15px;
+    margin-bottom: 0;
 }
 
 nav {
@@ -255,12 +258,13 @@ footer p {
     }
 
     header {
-        padding: 20px;
-        margin-bottom: 20px;
+    display: block;
+    padding: 20px;
+    margin-bottom: 20px;
     }
 
     header h2 {
-        font-size: 24px;
+    margin-bottom: 15px;
     }
 
     nav {
