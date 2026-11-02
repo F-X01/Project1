@@ -271,8 +271,6 @@ footer p {
         gap: 20px;
     }
 
-    /* Mobile Home */
-
     .home-layout {
         grid-template-columns: 1fr;
         gap: 20px;
